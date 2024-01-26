@@ -1,4 +1,4 @@
-type ButtonProps = {
+export type ButtonProps = {
     children: React.ReactNode;
 } & React.BaseHTMLAttributes<HTMLButtonElement>;
 
