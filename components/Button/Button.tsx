@@ -1,3 +1,4 @@
+
 export type ButtonProps = {
     children: React.ReactNode;
 } & React.BaseHTMLAttributes<HTMLButtonElement>;
@@ -5,7 +6,7 @@ export type ButtonProps = {
 const Button = ({children, className}: ButtonProps) => {
     return <button
         className={`
-        bg-[#2D5BFF] rounded-[8px] px-[32px] py-[12px] text-white
+        bg-primary rounded-md px-6 py-2 text-white text-sm
         ${className}
         `}
     >
